@@ -28,7 +28,7 @@ def dribbble():
 
 @app.route('/pinterest')
 def pinterest():
-    return redirect("https://www.pinterest.com/kullaniciadi")
+    return redirect("https://www.pinterest.com/")
 
 if __name__ == "__main__":
     app.run(debug=True)
