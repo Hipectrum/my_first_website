@@ -30,5 +30,6 @@ def dribbble():
 def pinterest():
     return redirect("https://www.pinterest.com/kullaniciadi")
 
+
 if __name__ == "__main__":
     app.run(debug=True)
